@@ -1,0 +1,261 @@
+.cardflip-game-bg-container {
+  width: 100%;
+
+  top: -3257px;
+  left: -28530.5px;
+  color: #ffffff;
+  background-color: #14332e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 674px;
+}
+
+.cardflip-result-bg-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #14332e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Bree serif;
+}
+
+.cardflip-main-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.cardflip-score-container {
+  width: 312px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+
+.cardflip-game-over {
+  align-self: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardflip-score {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cardflip-timer {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.cardflip-card-container {
+  width: 312px;
+  height: 394px;
+  top: 224px;
+  left: 24px;
+  border-radius: 12px;
+
+  background: linear-gradient(0deg, #154315, #154315),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19));
+  border: 3px solid #ffffff30;
+  align-self: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.cardflip-button {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+}
+
+.background-green {
+  width: 60px;
+  height: 60px;
+  top: 240px;
+  left: 258px;
+  border-radius: 6.4px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(167, 243, 208, 0.5),
+      rgba(167, 243, 208, 0.5)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19));
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+.background-white {
+  width: 66px;
+  height: 66px;
+  top: 240px;
+  left: 258px;
+  border-radius: 6.4px;
+  background-color: #ffffff;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.cardflip-image {
+  width: 41.25px;
+  height: 41.25px;
+  top: 328.44px;
+  left: 196.38px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cardflip-result-heading {
+  color: #4ade80;
+}
+
+
+.cardflip-popup-container{
+  width: 312px;
+  height: 624px;
+  top: 48px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  color: #334155;
+  background-color: #ffffff;
+  
+  }
+@media screen and (min-width: 768px) {
+  .cardflip-game-bg-container {
+    height: 1024px;
+    top: -2811px;
+    left: -49340px;
+  }
+  .cardflip-main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  .cardflip-score-container {
+    width: 928px;
+  }
+  .cardflip-score {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .cardflip-timer {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .cardflip-card-container {
+    width: 928px;
+    height: 752px;
+    top: 296px;
+    left: 256px;
+  }
+  .background-green {
+    width: 160px;
+    height: 160px;
+    top: 328px;
+    left: 288px;
+    border-radius: 16px;
+    margin: 2px;
+  }
+  .background-white {
+    width: 160px;
+    height: 160px;
+    top: 328px;
+    left: 288px;
+    border-radius: 16px;
+  }
+  .cardflip-image {
+    width: 120px;
+    height: 110px;
+    top: 704px;
+    left: 832px;
+    padding: 0.54px, 2.36px, 0.12px, 2.67px;
+  }
+  .cardflip-result-heading {
+    font-family: Bree Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .cardflip-popup-container {
+  width: 1140px;
+  height: 536px;
+  top: 304px;
+  left: 150px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #ffffff;
+  color: #334155;
+}
+}
+
+.cardflip-rules-container {
+  width: 100%;
+  height: 1018px;
+  background-color: #14332e;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.cardflip-logo {
+  width: 312px;
+  height: 178px;
+  top: 80px;
+  left: 24px;
+}
+.cardflip-rules-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cardflip-rules-container {
+    height: 1238px;
+  }
+  .cardflip-logo {
+    width: 807px;
+    height: 462px;
+    top: 128px;
+    left: 317px;
+  }
+}

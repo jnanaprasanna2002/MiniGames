@@ -1,0 +1,338 @@
+.emoji-game-rules-container {
+  width: 100%;
+  height: 1097px;
+  background-image: linear-gradient(180deg, #a09aed, #e0badb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.rules-card-container {
+  width: 312px;
+  height: 969px;
+  top: 80px;
+  left: 24px;
+  border-radius: 12px;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19));
+  border: 3px solid #ffffff30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: flex-start;
+  width: 100px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.rules-close-button {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.back {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334155;
+}
+
+.rules-card-image {
+  width: 250px;
+  height: 250px;
+  top: 112px;
+  left: 52px;
+}
+.rules-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334155;
+}
+.rules-list-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+
+.emoji-start-button {
+  width: 101px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: #334155;
+  color: #ffffff;
+  outline: none;
+}
+
+.emoji-button-container {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .emoji-game-rules-container {
+    height: 1000px;
+  }
+  .rules-card-container {
+    width: 1201px;
+    height: 776px;
+    top: 128px;
+    left: 120px;
+    flex-direction: row;
+  }
+  .rules-card-image {
+    width: 450px;
+    height: 450px;
+    top: 275px;
+    left: 168px;
+  }
+  .rules-content-container {
+    width: 579px;
+    height: 680px;
+    top: 176px;
+    left: 694px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  .rules-heading {
+    font-size: 32px;
+
+    line-height: 48px;
+  }
+  .rules-list-item {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .emoji-start-button {
+    width: 129px;
+    height: 48px;
+    top: 808px;
+    left: 917px;
+  }
+}
+
+.emoji-game-container {
+  width: 100%;
+  height: 620px;
+  background: linear-gradient(180deg, #a09aed, #e0badb);
+}
+
+.emoji-game-header {
+  width: 100%;
+  height: 10vh;
+  background: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.emoji-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.emoji-score {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+.rules-button {
+  width: 62px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  color: #334155;
+  background-color: transparent;
+  gap: 8px;
+  border: 2px solid #334155;
+}
+
+.game-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-view {
+  width: 80%;
+}
+
+.emoji-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emoji-unorder-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.game-over-container {
+  width: 264px;
+  height: 430px;
+  top: 105px;
+  left: 48px;
+  border: 3.01px solid #ffffff30;
+  border-radius: 12px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-loss-image {
+  width: 150px;
+  height: 180px;
+  top: 129px;
+  left: 110px;
+}
+.game-result {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.game-best-score {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+.game-total-score {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #523fff;
+}
+.play-again-button {
+  width: 102px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: #ffce27;
+  color: #334155;
+  border: 0px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: 0px;
+  align-self: flex-end;
+}
+
+.popup-container {
+  width: 312px;
+  height: 560px;
+  top: 48px;
+  left: 24px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .emoji-game-container {
+    height: 1024px;
+  }
+  .emoji-heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .emoji-score {
+    font-size: 24px;
+
+    line-height: 26px;
+  }
+  .game-over-container {
+    width: 900px;
+    height: 550px;
+    top: 237px;
+    left: 270px;
+    border-radius: 24px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .game-loss-image {
+    width: 370px;
+    height: 450px;
+    top: 304.61px;
+    left: 781px;
+    order: 1;
+  }
+  .game-result {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .game-best-score {
+    font-size: 24px;
+
+    line-height: 32px;
+  }
+  .game-total-score {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  .play-again-button {
+    width: 145px;
+    height: 40px;
+  }
+  .popup-container {
+    width: 650px;
+    height: 650px;
+    top: 172px;
+    left: 382px;
+  }
+}
+.pop-up-close-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}

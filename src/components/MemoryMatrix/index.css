@@ -1,0 +1,240 @@
+.memory-matrix-rules-container {
+  width: 100vw;
+  height: 1200px;
+  top: -5113px;
+  left: -29040.5px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bree Serif;
+  color: #ffffff;
+  background-color: #1a202c;
+  padding: 30px;
+}
+
+.memory-back {
+  width: 36px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.mm-start-button {
+  background-color: #467aff;
+  border-radius: 10px;
+  border-width: 0px;
+  margin: 20px;
+}
+.memory-image {
+  width: 312px;
+  height: 233px;
+  top: 155px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.mm-game-container {
+  width: 100vw;
+  height: 640px;
+  top: 7541.25px;
+  left: -28605.5px;
+  gap: 0px;
+  opacity: 0px;
+
+  background-color: #1a202c;
+  color: #ffffff;
+  font-family: Bree Serif;
+  padding: 30px;
+}
+
+.mm-popup-container {
+  width: 312px;
+  height: 500px;
+  top: 48px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  overflow: auto;
+  background-color: #ffffff;
+  color: #334155;
+}
+.mm-level {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: center;
+}
+
+.mm-game-result-container {
+  background: #1a202c;
+  font-family: Bree Serif;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.level-text {
+  font-family: Bree Serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.congrates-text {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #467aff;
+}
+.result-text {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+}
+.level-container {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .memory-matrix-rules-container {
+    height: 1306px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .memory-back {
+    width: 44px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+  }
+  .memory-image {
+    width: 484px;
+    height: 361px;
+    top: 257px;
+    left: 478px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .mm-game-container {
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .mm-popup-container {
+    width: 1140px;
+    height: 568px;
+    top: 228px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+  }
+  .mm-level {
+    font-family: Bree Serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.59px;
+    text-align: center;
+  }
+  .mm-result-heading {
+    font-family: Bree Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+  }
+
+  .level-text {
+    font-family: Bree Serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.73px;
+    text-align: left;
+  }
+  .congrates-text {
+    font-family: Bree Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+  }
+  .result-text {
+    font-family: Bree Serif;
+    font-size: 36px;
+    font-weight: 400;
+
+    text-align: center;
+  }
+}
+
+/* MemoryMatrix.css */
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-row {
+  display: flex;
+}
+.highlight-red {
+  background-color: red;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.highlight-blue {
+  background-color: #467aff;
+}
+
+@media screen and (min-width: 768px) {
+  .highlight-red {
+    background-color: red;
+  }
+  .cell {
+    width: 80px;
+    height: 80px;
+    top: 336px;
+    left: 532px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #cbd5e1;
+  }
+
+  .highlight-blue {
+    background-color: #467aff;
+  }
+}
