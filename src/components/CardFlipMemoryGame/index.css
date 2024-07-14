@@ -140,8 +140,7 @@
   color: #4ade80;
 }
 
-
-.cardflip-popup-container{
+.cardflip-popup-container {
   width: 312px;
   height: 624px;
   top: 48px;
@@ -151,8 +150,7 @@
   opacity: 0px;
   color: #334155;
   background-color: #ffffff;
-  
-  }
+}
 @media screen and (min-width: 768px) {
   .cardflip-game-bg-container {
     height: 1024px;
@@ -215,16 +213,16 @@
     text-align: left;
   }
   .cardflip-popup-container {
-  width: 1140px;
-  height: 536px;
-  top: 304px;
-  left: 150px;
-  gap: 0px;
-  border-radius: 12px;
-  opacity: 0px;
-  background-color: #ffffff;
-  color: #334155;
-}
+    width: 1140px;
+    height: 536px;
+    top: 304px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #ffffff;
+    color: #334155;
+  }
 }
 
 .cardflip-rules-container {

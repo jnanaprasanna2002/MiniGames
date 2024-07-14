@@ -73,7 +73,6 @@
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  
   .rps-rules-container {
     height: 1301px;
     padding: 40px;
@@ -81,7 +80,7 @@
   .rps-rules-heading {
     font-size: 48px;
     font-weight: 400;
-    
+
     letter-spacing: 0em;
   }
   .rps-image {
